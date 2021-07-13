@@ -6,7 +6,7 @@ subjects:
 - kind: ServiceAccount
   name: openebs-helm-operator
   # Replace this with the namespace the operator is deployed in.
-  namespace: default
+  namespace: openebs
 roleRef:
   kind: ClusterRole
   name: openebs-helm-operator

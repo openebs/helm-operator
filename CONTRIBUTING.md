@@ -2,7 +2,7 @@
 
 The helm operator is typically built/updated upon one or both the below cases: 
 
-- New release of OpenEBS helm charts in [openebs/stable](https://github.com/helm/charts/tree/master/stable/openebs).
+- New release of OpenEBS helm charts in [openebs/stable](https://artifacthub.io/packages/helm/openebs/openebs).
 - Updates to operator's functionality, i.e., auxiliary steps performed by the operator pre or post install of helm charts
 
 Please consider the steps below while making the commits in order to achieve the above: 

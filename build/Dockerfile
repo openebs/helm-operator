@@ -1,4 +1,4 @@
-FROM quay.io/operator-framework/helm-operator:v0.7.0
+FROM quay.io/operator-framework/helm-operator:v1.8.0
 
 COPY watches.yaml ${HOME}/watches.yaml
 COPY helm-charts/ ${HOME}/helm-charts/
